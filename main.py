@@ -12,11 +12,11 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["botcreator"])
 def send_message(message):
-  bot.send_message(message, "yasith")
+  bot.reply_to(message, "yasith")
   
 @bot.message_handler(commands=["monitor"])
 def send_message(message):
-  bot.send_message(message, "Namindu and Uppla. They are our Class leader")
+  bot.reply_to(message, "Namindu and Uppla. They are our Class leader")
 
 
 
