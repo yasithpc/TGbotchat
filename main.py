@@ -10,7 +10,7 @@ def send_welcome(message):
   bot.reply_to(message, "Hello! I'm BST Community Chat Bot")
 
 
-@bot.message_handler(commands=["bottCreator"])
+@bot.message_handler(commands=["botCreator"])
 def send_message(message):
   bot.send_message(message, "yasith")
 
