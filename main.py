@@ -10,9 +10,13 @@ def send_welcome(message):
   bot.reply_to(message, "Hello! I'm BST Community Chat Bot")
 
 
-@bot.message_handler(commands=["botCreator"])
+@bot.message_handler(commands=["botcreator"])
 def send_message(message):
   bot.send_message(message, "yasith")
+  
+@bot.message_handler(commands=["monitor"])
+def send_message(message):
+  bot.send_message(message, "Namindu and Uppla. They are our Class leader")
 
 
 
