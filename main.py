@@ -20,8 +20,9 @@ def send_message(message):
     
 def handle_messages(messages):
 	for message in messages:
+		if message == "hi":
 		# Do something with the message
-		bot.reply_to(message, 'Hi')
+			bot.reply_to(message, 'Hi')
 
 bot.set_update_listener(handle_messages)
 
