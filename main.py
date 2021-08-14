@@ -20,7 +20,7 @@ def send_message(message):
     
 def handle_messages(messages):
 	for message in messages:
-		if messages == "hi" or messages == "Hi":
+		if message.chat.type == "hi" or message.chat.type == "Hi":
 		# Do something with the message
 			bot.reply_to(message, 'Hi')
 
