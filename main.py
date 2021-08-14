@@ -18,9 +18,11 @@ def send_message(message):
 def send_message(message):
   bot.reply_to(message, "Namindu and Uppla. They are our Class leader")
     
-@bot.message_handler(messages):
+def handle_messages(messages):
 	for message in messages:
 		# Do something with the message
 		bot.reply_to(message, 'Hi')
+
+bot.set_update_listener(handle_messages)
 
 bot.polling()
