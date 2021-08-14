@@ -19,7 +19,7 @@ def send_message(message):
   bot.reply_to(message, "Namindu and Uppla. They are our Class leader")
     
 @bot.message_handler(func = lambda msg: msg.text is not None and '/' not in msg.text)
- if msg.text == "Hi":
-    bot.send_message(msg.chat.id,"Hello!")
+    if message.text == "Hi":
+        bot.send_message(message.chat.id,"Hello!")
 
 bot.polling()
