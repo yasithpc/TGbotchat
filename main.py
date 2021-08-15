@@ -16,10 +16,11 @@ my command list :
 /monitor - Find our Class ref.
 /subject - Find our subject
 
-mention word : 
+mention word :
 Hi,hi,
-Bst,bst, Univotec,univotec, 
-Uppla,uppla, 
+Bst,bst,
+Univotec,univotec,
+Uppla,uppla,
 Namindu,namindu
   
 Thank you.❤ Your request.💖
