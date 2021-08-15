@@ -93,11 +93,27 @@ Thank You for mention this word.💖
 	
 Thank You for mention this word.💖
 """)
-			
-			
-			
-			
+		if message.text == "Uppla" or message.text == "uppla":
+			bot.reply_to(message, """ 
+She is Our Class representative.
+She name is Uppla jayasekara.
 
+your class member mention you.😁😁😁
+I am BST Bot.😉😋
+I love you. Uppla.😚💖
+Stay Safe.😊❤💝
+""")
+		if message.text == "Namindu" or message.text == "namindu":
+			bot.reply_to(message, """ 
+He is Our Class representative.
+He name is Namindu Fernando.
+
+your class member mention you.😉
+I am BST Bot.😊
+I like you. Namindu.🤩
+Stay Safe.❤
+""")
+			
 bot.set_update_listener(handle_messages)
 
 bot.polling()
