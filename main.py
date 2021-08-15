@@ -125,7 +125,7 @@ Stay Safe.😊❤💝
 		if message.text == "Namindu" or message.text == "namindu":
 			bot.reply_to(message, """ 
 He is Our Class representative.
-Heis name is Namindu Fernando.
+His name is Namindu Fernando.
 
 your class member mention you.😉
 I am BST Bot.😊
