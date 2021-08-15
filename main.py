@@ -8,38 +8,52 @@ bot = telebot.TeleBot("1914396081:AAHNFA2409oexT-JMVr5eOnkFMaXb__3xkg")
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
   bot.reply_to(message, """
-  Hello!😊 I'm BST Community Chat Bot.💖
+Hello!😊 I'm BST Community Chat Bot.💖
   
-  my command list :
+my command list :
+
+/botcreator - Find my owner
+/monitor - Find our Class ref.
+/subject - Find our subject
+
+mention word : hi,Hi, Bst,bst, Univotec,univotec, Uppla,uppla, Namindu,namindu
   
-  /botcreator - Find my owner
-  /monitor - Find our Class ref.
-  /subject - Find our subject
+Thank you.❤ Your request.💖
   """)
 
 
 @bot.message_handler(commands=["botcreator"])
 def send_message(message):
-  bot.reply_to(message, "I am built by yasith praharshana.🧑 He is Univotec BST Class Member.🏘")
+  bot.reply_to(message, """
+I am built by yasith praharshana.🧑
+He is Univotec BST Class Member.🏘
+
+Thank you.❤ Your request.💖
+  """)
   
 @bot.message_handler(commands=["monitor"])
 def send_message(message):
-  bot.reply_to(message, "Namindu👦 and Uppla👧. They are our Class representative.☺❤")
+  bot.reply_to(message, """
+Namindu👦 and Uppla👧. 
+They are our Class representative.☺❤
+
+Thank you.❤ Your request.💖
+""")
 
 @bot.message_handler(commands=["subject"])
 def send_message(message):
   bot.reply_to(message, """
-  1️⃣--- First Semester Subject ---1️⃣
+1️⃣--- First Semester Subject ---1️⃣
   
-  👩‍🏫 Construction Technology - Ms. Samantha
-  👨‍🏫 Fluid mechanics - Mr. Tharinda
-  👩‍🏫 English (com. Skill) - Ms. Kokila
-  👩‍🏫 Engineering Physics - Ms. Chamila
-  👩‍🏫 Theory of elecricity - Ms. Chamila
-  👨‍🏫 Engineering Maths - Mr. Naveen
-  👨‍🏫 Construction Drawing - Mr. Sampath
+👩‍🏫 Construction Technology - Ms. Samantha
+👨‍🏫 Fluid mechanics - Mr. Tharinda
+👩‍🏫 English (com. Skill) - Ms. Kokila
+👩‍🏫 Engineering Physics - Ms. Chamila
+👩‍🏫 Theory of elecricity - Ms. Chamila
+👨‍🏫 Engineering Maths - Mr. Naveen
+👨‍🏫 Construction Drawing - Mr. Sampath
   
-  Thank you.❤ Your request.💖
+Thank you.❤ Your request.💖
   """)
     
 def handle_messages(messages):
