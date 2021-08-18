@@ -134,5 +134,4 @@ Stay Safe.❤
 """)
 			
 bot.set_update_listener(handle_messages)
-
 bot.polling()
