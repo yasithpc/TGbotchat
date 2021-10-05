@@ -177,8 +177,10 @@ explain : *s - before, +s - now, -s after, r - recall, -l - late the lecture (fo
 		if message.text == ".bot hi" or message.text == ".bot Hi":
 		# Do something with the message
 			bot.reply_to(message, """Hi my dear, I am Bst univotec bot.🤗 How are you.❤
+			
 			This is a my new feature.☺
 			type ".bot" and get my all ".bot command list"
+			
 			
 			Thank you...❤
 			""")
