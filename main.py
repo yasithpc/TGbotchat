@@ -269,7 +269,7 @@ Strore 5 :
 Fluid 02 - foundation video
 
 Store 6 :
-Kuppi programs
+Kuppi store.
 
 Thank you.❤ Your request.💖
   """)
