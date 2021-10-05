@@ -249,7 +249,28 @@ def send_message(message):
 📎 Store 4 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
 📎 Store 5 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
 📎 Store 6 - https://drive.google.com/drive/folders/1APwbC3KHUQHvhmc5W5phSwxxVzLcTqd0?usp=sharing
-  
+
+Store 1 :
+Building Construction
+Maths
+
+Store 2 :
+Fluid mechanics
+
+Store 3 :
+Architecture
+Chamila madam (Physics, Electricity)
+
+Store 4 :
+Autocad Drawing
+English Lecture
+
+Strore 5 :
+Fluid 02 - foundation video
+
+Store 6 :
+Kuppi programs
+
 Thank you.❤ Your request.💖
   """)
 			
