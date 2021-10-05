@@ -191,7 +191,7 @@ Ow, oka thamai mawa hadapu ekaa.🤭
 oya bot fatherge mama athuluwa robola 2 nek oyalage group eke innawa haloo.🤗😉
 Stay Safe.❤
 """)
-		if message.text == ".call Yasith" or message.text == ".call Yasith":
+		if message.text == ".call yasith" or message.text == ".call Yasith":
 			bot.reply_to(message, """ 
 Ado yasith anna ubata yaluwek katha karanawa poddak balahan.
 poddak balahan kiwwama. oi. gon athal ganne nathuwa. shik. ohe mokekda manda.
