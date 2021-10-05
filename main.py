@@ -156,7 +156,7 @@ ita passe mage program eka balanna puluwan oyalata.🖥
 
 Link : https://github.com/yasithpc/TGbotchat
 
-oya anith hamotama loku udawuk kare gihin balnna ko.❣ oyata lesiyen kiywanna puluwan meka.😎
+oya anith hamotama loku udawuwak kare gihin balnna ko.❣ oyata lesiyen kiywanna puluwan meka.😎
 gihin balanna.😉
 Stay Safe.❤
 """)
