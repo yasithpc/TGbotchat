@@ -15,12 +15,13 @@ my command list :
 /botcreator - Find my owner
 /monitor - Find our Class ref.
 /subject - Find our subject
+/lecvideo - Get google drive link
 
 mention word :
 Hi,hi,
 Bst,bst,
 Univotec,univotec,
-Uppla,uppla,
+Uppala,uppala,
 Namindu,namindu
   
 Thank you.❤ Your request.💖
@@ -39,7 +40,7 @@ Thank you.❤ Your request.💖
 @bot.message_handler(commands=["monitor"])
 def send_message(message):
   bot.reply_to(message, """
-Namindu👦 and Uppla👧. 
+Namindu👦 and Uppala👧. 
 They are our Class representative.☺❤
 
 Thank you.❤ Your request.💖
@@ -112,14 +113,14 @@ Thank You for mention this word.💖
 	
 Thank You for mention this word.💖
 """)
-		if message.text == "Uppla" or message.text == "uppla":
+		if message.text == "Uppala" or message.text == "uppala":
 			bot.reply_to(message, """ 
 She is Our Class representative.
-Her name is Uppla jayasekara.
+Her name is Uppala jayasekara.
 
 your class member mention you.😁😁😁
 I am BST Bot.😉😋
-I love you. Uppla.😚💖
+I love you. Uppala.😚💖
 Stay Safe.😊❤💝
 """)
 		if message.text == "Namindu" or message.text == "namindu":
@@ -132,6 +133,21 @@ I am BST Bot.😊
 I like you. Namindu.🤩
 Stay Safe.❤
 """)
+			
+@bot.message_handler(commands=["lecvideo"])
+def send_message(message):
+  bot.reply_to(message, """
+1️⃣--- Lecture video Link in google drive ---1️⃣
+  
+👩‍🏫 Store 1 - https://drive.google.com/drive/folders/17iWwmC8o8fzcOTawutV2HCdObeS5ng99?usp=sharing
+👨‍🏫 Store 2 - https://drive.google.com/drive/folders/1-C1dd0b9pnl5bralMDWJZZHHPXeGW16i?usp=sharing
+👩‍🏫 Store 3 - https://drive.google.com/drive/folders/1JxtTTb1m9lJUABV3Knn7F8ZLdPYmeGna?usp=sharing
+👩‍🏫 Store 4 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
+👩‍🏫 Store 5 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
+👨‍🏫 Store 6 - https://drive.google.com/drive/folders/1APwbC3KHUQHvhmc5W5phSwxxVzLcTqd0?usp=sharing
+  
+Thank you.❤ Your request.💖
+  """)
 			
 bot.set_update_listener(handle_messages)
 bot.polling()
