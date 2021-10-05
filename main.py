@@ -67,6 +67,15 @@ def handle_messages(messages):
 		if message.text == "hi" or message.text == "Hi":
 		# Do something with the message
 			bot.reply_to(message, 'Hi my dear, I am Bst univotec bot.🤗 How are you.❤')
+			
+		if message.text == ".bot hi" or message.text == ".bot Hi":
+		# Do something with the message
+			bot.reply_to(message, """Hi my dear, I am Bst univotec bot.🤗 How are you.❤
+Monawa karannada bn. ara gon yasithaya ".bot" command ekta program karala na.🥴 Sorry ahh.😐
+ala irath thekka command tikkakui.wachanayak dammama msg ekk ena widiye deyak hadala thiyenne.😪
+yalu /start meka uda touch karama ganna puluwan. mage command set eka...☺
+			""")
+			
 		if message.text == "univotec" or message.text == "Univotec":
 			bot.reply_to(message, """ 
 Our University is University of Vocational Technology.🏙 It is located by Ratmalana.🌄 Our university is best in Sri Lanka.❤ We Love Our University.💖
