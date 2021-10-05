@@ -23,7 +23,6 @@ Bst,bst,
 Univotec,univotec,
 Uppala,uppala,
 Namindu,namindu
-yasith, Yasith
 .github, .Github
 .call yasith, .call Yasith
 
