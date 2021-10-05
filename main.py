@@ -23,6 +23,7 @@ Bst,bst,
 Univotec,univotec,
 Uppala,uppala,
 Namindu,namindu
+.github, .Github
   
 Thank you.❤ Your request.💖
   """)
@@ -71,9 +72,10 @@ def handle_messages(messages):
 		if message.text == ".bot hi" or message.text == ".bot Hi":
 		# Do something with the message
 			bot.reply_to(message, """Hi my dear, I am Bst univotec bot.🤗 How are you.❤
+			
 Monawa karannada bn. ara gon yasithaya ".bot" command ekta program karala na.🥴 Sorry ahh.😐
 ala irath thekka command tikkakui.wachanayak dammama msg ekk ena widiye deyak hadala thiyenne.😪
-yalu /start meka uda touch karama ganna puluwan. mage command set eka...☺
+yalu, /start meka uda touch karama ganna puluwan. mage command set eka...☺
 			""")
 			
 		if message.text == "univotec" or message.text == "Univotec":
@@ -142,18 +144,33 @@ I am BST Bot.😊
 I like you. Namindu.🤩
 Stay Safe.❤
 """)
-			
+
+		if message.text == ".github" or message.text == ".Github":
+			bot.reply_to(message, """ 
+Yalu oyaa oya command eka gahapu eka hodai deyak.😍
+mekata gihin balanna kohomada ara yaka mawa program kare kiyala.😉 
+ara yaka mokak mata karala thiyenwada kiyala machan ubala danne nane.🤔
+me pahala link eken gihin mage Repositoriyata yanna.👇
+eke athi " main.py " kiyala ekak. eka uda click karanna.🖱
+ita passe mage program eka balanna puluwan oyalata.🖥
+
+Link : https://github.com/yasithpc/TGbotchat
+
+oya anith hamotama loku udawuk kare gihin balnna ko.❣ oyata lesiyen kiywanna puluwan meka.😎
+gihin balanna.😉
+Stay Safe.❤
+""")
 @bot.message_handler(commands=["lecvideo"])
 def send_message(message):
   bot.reply_to(message, """
 1️⃣--- Lecture video Link in google drive ---1️⃣
   
-👩‍🏫 Store 1 - https://drive.google.com/drive/folders/17iWwmC8o8fzcOTawutV2HCdObeS5ng99?usp=sharing
-👨‍🏫 Store 2 - https://drive.google.com/drive/folders/1-C1dd0b9pnl5bralMDWJZZHHPXeGW16i?usp=sharing
-👩‍🏫 Store 3 - https://drive.google.com/drive/folders/1JxtTTb1m9lJUABV3Knn7F8ZLdPYmeGna?usp=sharing
-👩‍🏫 Store 4 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
-👩‍🏫 Store 5 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
-👨‍🏫 Store 6 - https://drive.google.com/drive/folders/1APwbC3KHUQHvhmc5W5phSwxxVzLcTqd0?usp=sharing
+📎 Store 1 - https://drive.google.com/drive/folders/17iWwmC8o8fzcOTawutV2HCdObeS5ng99?usp=sharing
+📎 Store 2 - https://drive.google.com/drive/folders/1-C1dd0b9pnl5bralMDWJZZHHPXeGW16i?usp=sharing
+📎 Store 3 - https://drive.google.com/drive/folders/1JxtTTb1m9lJUABV3Knn7F8ZLdPYmeGna?usp=sharing
+📎 Store 4 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
+📎 Store 5 - https://drive.google.com/drive/folders/1C_aOfD4OGDiW-bnXz3vGnVvdI7boHT6l?usp=sharing
+📎 Store 6 - https://drive.google.com/drive/folders/1APwbC3KHUQHvhmc5W5phSwxxVzLcTqd0?usp=sharing
   
 Thank you.❤ Your request.💖
   """)
