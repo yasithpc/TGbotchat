@@ -23,8 +23,10 @@ Bst,bst,
 Univotec,univotec,
 Uppala,uppala,
 Namindu,namindu
+yasith, Yasith
 .github, .Github
-  
+.call yasith, .call Yasith
+
 Thank you.❤ Your request.💖
   """)
 
@@ -68,15 +70,6 @@ def handle_messages(messages):
 		if message.text == "hi" or message.text == "Hi":
 		# Do something with the message
 			bot.reply_to(message, 'Hi my dear, I am Bst univotec bot.🤗 How are you.❤')
-			
-		if message.text == ".bot hi" or message.text == ".bot Hi":
-		# Do something with the message
-			bot.reply_to(message, """Hi my dear, I am Bst univotec bot.🤗 How are you.❤
-			
-Monawa karannada bn. ara gon yasithaya ".bot" command ekta program karala na.🥴 Sorry ahh.😐
-ala irath thekka command tikkakui.wachanayak dammama msg ekk ena widiye deyak hadala thiyenne.😪
-yalu, /start meka uda touch karama ganna puluwan. mage command set eka...☺
-			""")
 			
 		if message.text == "univotec" or message.text == "Univotec":
 			bot.reply_to(message, """ 
@@ -160,6 +153,90 @@ oya anith hamotama loku udawuwak kare gihin balnna ko.❣ oyata lesiyen kiywanna
 gihin balanna.😉
 Stay Safe.❤
 """)
+
+#.bot command section
+		if message.text == ".bot" or message.text == ".bot":
+			bot.reply_to(message, """ 
+.bot word list:
+---------
+
+.bot yasith,		.bot Yasith
+.bot lecture *s ,	.bot Lecture *s
+.bot lecture +s ,	.bot Lecture +s
+.bot lecture -s ,	.bot Lecture -s
+.bot lecture -s r ,	.bot Lecture -s r
+.bot lecture -s rr ,	.bot Lecture -s rr
+.bot lecture -s rrr ,	.bot Lecture -s rrr
+.bot lecture y -l ,	.bot Lecture y -l
+.bot lecture y -ll ,	.bot Lecture y -ll
+.bot lecture y -lll ,	.bot Lecture y -lll
+
+explain : *s - before, +s - now, -s after, r - recall, -l - late the lecture (for only owner) 
+---------
+			""")
+		if message.text == ".bot hi" or message.text == ".bot Hi":
+		# Do something with the message
+			bot.reply_to(message, """Hi my dear, I am Bst univotec bot.🤗 How are you.❤
+			This is a my new feature.☺
+			type ".bot" and get my all ".bot command list"
+			
+			Thank you...❤
+			""")
+			
+		if message.text == ".bot yasith" or message.text == ".bot Yasith":
+			bot.reply_to(message, """ 
+Ow, oka thamai mawa hadapu ekaa.🤭
+oya bot fatherge mama athuluwa robola 2 nek oyalage group eke innawa haloo.🤗😉
+Stay Safe.❤
+""")
+		if message.text == ".call Yasith" or message.text == ".call Yasith":
+			bot.reply_to(message, """ 
+Ado yasith anna ubata yaluwek katha karanawa poddak balahan.
+poddak balahan kiwwama. oi. gon athal ganne nathuwa. shik. ohe mokekda manda.
+""")
+		if message.text == ".bot lecture *s" or message.text == ".bot Lecture *s":
+			bot.reply_to(message, """ 
+lamaaai. oyalage lecture patan gannai yanne. ko ko lasthi wenna.
+""")
+		if message.text == ".bot lecture +s" or message.text == ".bot Lecture +s":
+			bot.reply_to(message, """ 
+e ban ubalage lecture patan gena ban.🤦‍♂️
+""")
+		if message.text == ".bot lecture -s" or message.text == ".bot Lecture -s":
+			bot.reply_to(message, """ 
+me anna lecture eka patan gena. wawulo wage ellagena balan inne nathuwa lecture ekata yanawa. meka me kattiya hamotama kiwwe hariye.😡
+""")
+		if message.text == ".bot lecture -s r" or message.text == ".bot Lecture -s r":
+			bot.reply_to(message, """ 
+ara madam hari sir hari balan athi ban.😠 paw ban e minissu.😟 ubalata therenne nadda e minissu ubalata wenuwen darana mahansiya.😢 wena lecture kenek nam padama igannuwa giya. 😢
+ubala maha paw karayo bn.😰
+""")
+		if message.text == ".bot lecture -s rr" or message.text == ".bot Lecture -s rr":
+			bot.reply_to(message, """ 
+mage yaka aussa ganne nathuwa pala lecture ekata besige puthala.🤬
+""")
+		if message.text == ".bot lecture -s rrr" or message.text == ".bot Lecture -s rrr":
+			bot.reply_to(message, """ 
+ubala kage daruwoda kiyapan.chik witharak. paw ara interview list eke ubalata passe hitapu un. unta chance ekak dunna nam. mehema me lectureslata duk widinna wenne na.🤬
+""")
+		if message.text == ".bot lecture y -l" or message.text == ".bot Lecture y -l":
+			bot.reply_to(message, """ 
+oi mage wachana padama aha ganne nathuwa lecture ekata pala. gon yasithaya.😡
+""")
+		if message.text == ".bot lecture y -ll" or message.text == ".bot Lecture y -ll":
+			bot.reply_to(message, """ 
+buru yasith. ubage yaluwo lecture ekata enakan balan innawa. mee harakek wenna epa.😡
+
+uppala anith set eka mehema hariyanne na. jathuya amathannama one.
+""")
+		if message.text == ".bot lecture y -lll" or message.text == ".bot Lecture y -lll":
+			bot.reply_to(message, """ 
+kamak na ban. okata kela unama therewi. ubala mewelawe monada kiwwe kiyala.😡
+
+aulak na bn. ubala lecture ekata participate wenna ban. ubala thamai real yaluwo.💕
+""")
+
+#End-List
 @bot.message_handler(commands=["lecvideo"])
 def send_message(message):
   bot.reply_to(message, """
